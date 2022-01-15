@@ -15,7 +15,7 @@ html {
 	text-decoration: none;
 	text-align: center;
 	line-height: 50px;
-	color: white;
+	color: gold;
 	font-size: 22px;
 }
 .navbar {
@@ -40,7 +40,7 @@ a {
 }
 .saurabh-img {
 	display: flex;
-	position: fixed;
+	position: absolute;
 	top: 10%;
 	right: 10%;
 	border-radius: 6%;
@@ -147,4 +147,13 @@ td {
 .educationTbl td,
 th {
 	padding-right: 30px;
+}
+a:hover {
+	color: Red;
+}
+.AboutCls,
+.SkillsCls,
+.EducationCls,
+.ContactCls {
+	width: 100%;
 }
