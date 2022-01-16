@@ -25,6 +25,7 @@ html {
 	left: 20%;
 }
 ul {
+	width: 100%;
 	padding-left: 5%;
 	list-style-type: none;
 	display: flex;
@@ -45,6 +46,8 @@ a {
 	right: 10%;
 	border-radius: 6%;
 	z-index: 1;
+	height: 50%;
+	width: 20%;
 	border: 4px solid gold;
 }
 .Abouts {
@@ -173,5 +176,12 @@ a:hover {
 .SkillsCls,
 .EducationCls,
 .ContactCls {
+	width: 100%;
+}
+.AboutTbl,
+.skillsTbl,
+.educationTbl,
+.contactsTbl {
+	overflow: auto;
 	width: 100%;
 }
