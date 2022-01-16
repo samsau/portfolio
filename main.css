@@ -177,3 +177,6 @@ a:hover {
 .ContactCls {
 	width: 100%;
 }
+tr:hover {
+	zoom: 120%;
+}
